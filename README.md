@@ -1,16 +1,3 @@
-# ecommerceapp
+This repository contains a full-stack E-commerce application with Flutter for the frontend and Spring Boot for the backend. The frontend and backend are in separate folders and should be run in separate IDE windows. To run the frontend, navigate to the lib/ folder and execute  flutter run. Note the port number used by Flutter and update it in CorsConfig in the backend. To run the backend, open the backend/ folder and run ./mvnw spring-boot:run.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The frontend uses Provider for state management to handle reactive UI updates efficiently. This project was completed in 2 days. It includes basic authentication and order management functionality. Trade-offs made during development focused on delivering core functionality quickly while leaving advanced features and extensive input validation for future iterations. The repository provides a fully functional e-commerce workflow with clear separation between frontend and backend logic.
